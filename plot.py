@@ -25,7 +25,7 @@ def vis_path(x, y):
     #障害物を配置
     for k in range(len(obstacle_list)):
         x_o, y_o, r_o = obstacle_list[k][0], obstacle_list[k][1], obstacle_list[k][2],
-        circle_obstacle = patches.Circle((x_o, y_o), radius=r_o, edgecolor='black', facecolor='gray')
+        circle_obstacle = patches.Circle((x_o, y_o), radius=r_o, edgecolor='black', fill=False)
         ax.add_patch(circle_obstacle)
     
     #startとgoalを配置

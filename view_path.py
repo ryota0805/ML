@@ -7,10 +7,11 @@ theta_data = np.loadtxt('../data/practice/theta.csv', delimiter=',',encoding="ut
 
 #よくない例：6000, 213,234,23
 #よい例：567,1563
-sample_index = 23
+sample_index = 3
 
 if sample_index >= len(x_data):
     print("Over sample index")
+    
 else:
     x = x_data[sample_index]
     y = y_data[sample_index]

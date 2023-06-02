@@ -3,7 +3,7 @@ import numpy as np
 import env
 
 class Parameter:
-    env_data = env.Env()
+    env_data = env.Env1()
     
     N = 30                                                      #系列データの長さ
     M = 5                                                       #設計変数の種類の個数

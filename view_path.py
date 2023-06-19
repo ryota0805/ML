@@ -6,8 +6,8 @@ y_data = np.loadtxt('../data/env1/y.csv', delimiter=',',encoding="utf-8-sig")
 theta_data = np.loadtxt('../data/env1/theta.csv', delimiter=',',encoding="utf-8-sig")
 
 #よくない例：6000, 213,234,23
-#よい例：567,1563
-sample_index = 6000
+#よい例：567,1563,3,5, 7,11c,17
+sample_index = 5
 
 if sample_index >= len(x_data):
     print("Over sample index")

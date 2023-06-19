@@ -42,6 +42,9 @@ def is_collision_free(x, y):
             continue
     
     return flag
+
+
+
         
             
         

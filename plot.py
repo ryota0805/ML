@@ -240,7 +240,7 @@ def vis_all_path_env2(x_data, y_data, theta_data):
         initial_theta, terminal_theta = theta_data[i][0], theta_data[i][-1]
         x, y = x_data[i], y_data[i]
         
-        ax.scatter(x, y, marker='x', color="r", s=5)
+        ax.plot(x, y, color="r")
         
     
     #wallを配置
